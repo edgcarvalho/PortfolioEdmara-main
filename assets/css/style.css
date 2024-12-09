@@ -641,12 +641,20 @@ header .grid-layout nav .nav-list li a:hover {
 #s-projects .grid-layout #projects .land:hover {
     border: 1px solid #a6fb98
 }
+
 #s-projects .grid-layout #projects .flores {
     border: 1px solid #ef98fb
 }
 
 #s-projects .grid-layout #projects .flores:hover {
     border: 1px solid #ef98fb
+}
+#s-projects .grid-layout #projects .IA3 {
+    border: 1px solid #ee8936
+}
+
+#s-projects .grid-layout #projects .IA3:hover {
+    border: 1px solid #ee8936
 }
 
 
@@ -1025,4 +1033,21 @@ footer div {
     margin: 0 auto
 }
 
+.company {
+    cursor: pointer;
+  }
+  
+  .company.activeExperience {
+    font-weight: bold;
+    color: #2c3e50; /* Altere para a cor desejada */
+  }
+  
+  .text-experience {
+    display: none;
+  }
+  
+  .text-experience.active {
+    display: block;
+  }
+  
 /*# sourceMappingURL=style.css.map */
